@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  height: 100vh;
+}
+
+.p-5 {
+  background: linear-gradient(90deg, #7BDFF2, #F2B5D4);
+}
+
+.navi {
+  text-align: center;
+  font-family: bold;
+  background-color: black;
+  color: aliceblue;
+  padding-top: 50px;
+}
